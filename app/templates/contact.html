@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block main %}
+<h2 class="title"> Contact Form </h2>
+<p class=para> Fill in this form to contact the site owners. </p>
+<form class=cform method='POST'>
+
+	{{form.csrftoken}}
+	{{form.name.label(class="label")}}
+	</br><p class=para> Please enter your full name</p>
+	{{form.name(class="input")}}
+	</br></br>
+	 {{form.email.label(class="label")}}
+	</br><p class=para> Please enter your email address</p>
+	 {{form.email(class="input")}}
+	</br></br>
+	{{form.subject.label(class="label")}} 
+	</br><p class=para> Please enter the subject for your message</p>
+	{{form.subject(class="input")}}
+	</br></br>
+	{{form.message.label(class="label")}}
+	</br><p class=para> Please enter the message you would like to send</p> 
+    {{form.message(class="box")}}
+	</br></br>
+<input class="btn btn-primary" type="submit" value="Send">
+
+</form>
+{% endblock %}

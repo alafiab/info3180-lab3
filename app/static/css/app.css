@@ -1,0 +1,36 @@
+body {
+    padding-top: 5rem;
+}
+
+.title{
+	font-family: Comic Sans MS, Comic Sans, cursive;
+}
+.label{
+	font-family: Comic Sans MS, Comic Sans, cursive;
+	font-size: 18px;
+}
+
+.para{
+	font-family: Comic Sans MS, Comic Sans, cursive;
+	font-size:14px;
+	
+}
+
+.btn{
+	width: 110px;
+}
+
+.box{
+	width:400px;
+	height:95px;
+}
+
+.input{
+	width:270px;
+}
+
+h2{
+	border-bottom: 5px solid black;
+	border-width: 2px;
+	padding-bottom: 8px;
+}
